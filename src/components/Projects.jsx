@@ -32,7 +32,7 @@ export default function Projects() {
   return (
     <div className="py-4">
       <h2 className="text-3xl mb-2">Projects</h2>
-      <div className="flex py-5 gap-10">
+      <div className="flex py-5 gap-10 flex-wrap">
         {projects.map((el) => (
           <ProjectsItem key={el.id} item={el} />
         ))}
